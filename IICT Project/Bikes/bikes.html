@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bikes</title>
+</head>
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<style>
+      #img{
+        padding-top: 0px;
+        position: relative;
+        bottom: 150px;
+        max-width: 15%; 
+        
+
+         
+    }
+    h1{ 
+       opacity: 0.8;
+       font-size: 50px;
+       padding-top: 80px;
+       padding-left: 220px;
+       padding-right: 1200px;
+       color: cornsilk;
+       background-color: black;
+       position: relative;
+       bottom:  50px;
+       right: 10px;
+       border: 10px;
+      border-style: 100px; 
+      border-color: brown;
+      font-style: inherit;   
+    }
+    .nav{
+        list-style-type: none;
+        text-align: center;
+      
+   
+    }
+    .nav button{
+        display: inline-block;
+        font-size: 25px;
+        padding: 8px;
+        position: relative;
+        bottom: 280px;
+        left: 300px;
+        cursor: pointer;
+        box-shadow: 0 3px 6px rgba(223, 211, 216, 0.959);
+        background-color: skyblue;
+        
+        margin-left: 10px;
+        margin-top: 10px;
+      
+    }
+    .i{
+        color: black;       
+           }
+           #logo {
+          border: 5px solid black; 
+          padding: 0px;                 
+          width: 400px;
+          height: 300px;
+          float:left ;              
+          box-sizing: border-box;  
+          display: block;
+      }  
+    .clearfix :hover.text {
+         opacity: 1;
+     } 
+  .text {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  width: 400px;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.clearfix :hover.text1 {
+         opacity: 1;
+     } 
+  .text1 {
+  position: absolute; 
+  right: 540px;
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  width: 400px;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.clearfix :hover.text2 {
+         opacity: 1;
+     } 
+  .text2{
+  position: absolute; 
+  right: 140px;
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  width: 400px;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+} .clearfix :hover.text3 {
+         opacity: 1;
+     } 
+  .text3 {
+  position: absolute; 
+  bottom: -300px; 
+  background: rgb(0, 0, 0);
+  width: 400px;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+} .clearfix :hover.text4 {
+         opacity: 1;
+     } 
+  .text4 {
+  position: absolute; 
+  right: 540px;
+  bottom: -300px; 
+  background: rgb(0, 0, 0);
+  width: 400px;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+} .clearfix :hover.text5 {
+         opacity: 1;
+     } 
+  .text5 {
+  position: absolute;
+  right: 140px; 
+  bottom: -300px; 
+  background: rgb(0, 0, 0);
+  width: 400px;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+} .clearfix :hover.text6 {
+         opacity: 1;
+     } 
+  .text6 {
+  position: absolute; 
+  bottom:-600px; 
+  background: rgb(0, 0, 0);
+  width: 400px;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+} .clearfix :hover.text7 {
+         opacity: 1;
+     } 
+  .text7 {
+  position: absolute; 
+  right: 540px;
+  bottom: -600px; 
+  background: rgb(0, 0, 0);
+  width: 400px;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+} .clearfix :hover.text8 {
+         opacity: 1;
+     } 
+  .text8 {
+  position: absolute; 
+  right: 140px;
+  bottom: -600px; 
+  background: rgb(0, 0, 0);
+  width: 400px;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+} 
+.clearfix :hover.text9 {
+         opacity: 1;
+     } 
+  .text9 {
+  position: absolute; 
+  bottom: -900px; 
+  background: rgb(0, 0, 0);
+  width: 400px;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+} 
+
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background: url("background.jpg");
+    background-attachment: fixed;
+    background-size: 1500px;
+    background-repeat: no-repeat;
+
+}
+#v{
+    list-style-type: none;
+        text-align: center;
+        display: inline-block;
+        font-size: 25px;
+        padding: 8px;
+        position: relative;
+        bottom: -1000px;
+        left: 0px;
+        cursor: pointer;
+        box-shadow: 0 3px 6px rgba(223, 211, 216, 0.959);
+        background-color: black;
+        margin-left: 0px;
+        margin-top: 10px;
+}
+p{
+    font-size: 50px;
+    position: absolute;
+    bottom: 250px;
+    color: black;
+    font-family: monospace;
+    background-color:black ;
+    padding-left: 0px;
+    color: white;
+    border: 3px solid white;
+      
+}
+.nav a:hover  {
+  background:skyblue;
+  color: white;
+}
+.last{
+  list-style-type: none;
+  color: aliceblue;
+  position: relative;
+  left: -650px;
+  top: 10px;
+}
+.last1{
+  list-style-type: none;
+  color: aliceblue;
+  position: relative;
+  left: -400px;
+  bottom: 250px;
+}
+.last2{
+  list-style-type: none;
+  color: aliceblue;
+  position: relative;
+  left: -100px;
+  bottom: 450px;
+}
+.last3{
+  list-style-type: none;
+  color: aliceblue;
+  position: relative;
+  left: -400px;
+  bottom: 400px;
+}
+.layout{
+  position: relative;
+  left: -100px;
+  background-color:rgb(36, 33, 33);
+  margin-left: 500px;
+  bottom: -1100px;
+  font-family: initial;
+ 
+}
+#p{
+  text-align: center;
+  color: aliceblue;
+  background-color:rgb(36, 33, 33);
+  position: relative;
+  bottom: 100px;
+  font-size: 15px;
+  border: none;
+
+}
+</style>
+<body>
+    <h1>Ride Wheels</h1>   
+    <img id="img" src="image.png">
+    <ol class="nav">
+        <button><i class="fas fa-home"><a class="i" href="E:/IICT%20Project/Project.html"  >Home</a></i> </button>
+        <button><i class="fas fa-car"><a class="i" href="E:/IICT%20Project/Cars/cars.html">Cars</a></i> </button>
+        <button><i class="fas fa-motorcycle"><a class="i" href="E:/IICT%20Project/Bikes/bikes.html">Bikes</a></i> </button>
+        <button><i class="fas fa-cart-shopping"><a class="i" href="E:/IICT%20Project/form/payment.html">Cart Shopping</a></i> </button>
+    </ol>
+    <p>We Will Provide You Best Bikes</p>
+    
+    
+    <div class="clearfix">
+    <img id="logo" src="1.jpg"><div class="text">$1000.00</div></div>
+    <div class="clearfix">
+    <img id="logo" src="2.jpg"><div class="text1">$7000.00</div></div>
+    <div class="clearfix">
+    <img id="logo" src="3.jpg"><div class="text2">$5000.00</div></div>
+    <div class="clearfix">
+    <img id="logo" src="4.jpg"><div class="text3">$4000.00</div></div>
+    <div class="clearfix">
+    <img id="logo" src="5.jpg"><div class="text4">$9000.00</div></div>
+    <div class="clearfix">
+    <img id="logo" src="6.jpg"><div class="text5">$20000.00</div></div>
+    <div class="clearfix">
+    <img id="logo" src="7.jpg"><div class="text6">$39000.00</div></div>
+    <div class="clearfix">
+    <img id="logo" src="8.jpg"><div class="text7">$1500.00</div></div>
+    <div class="clearfix">
+    <img id="logo" src="9.jpg"><div class="text8">$4000.00</div></div>
+    <div class="clearfix">
+    <img id="logo" src="10.jpg"><div class="text9">$4000.00</div></div>
+    
+    </div>
+ <ul>    <button id="v" ><a  href="E:/IICT%20Project/Bikes/bikes.html">1</a></button>
+    <button id="v" ><a  href="E:/IICT%20Project/Bikes/Bikes%20page%202.html">2</a></button></ul><br><br><br>
+    <div class="layout" >
+        <ol class="last">
+        <li><b> Cars By Make</b></li>
+        <li>Toyota Cars for Sale</li>
+        <li>Suzuki Cars for Sale</li>
+        <li>Honda Cars for Sale</li>
+        <li>Daihatsu Cars for Sale</li>
+        <li>Mitsubishi Cars for Sale</li>
+        <li>Nissan Cars for Sale</li>
+        <li>Mercedes Cars for Sale</li>
+        <li>Hyundai Cars for Sale</li>
+        <li>BMW Cars for Sale</li>
+
+        </ol>
+        <ol class="last1">
+       <li><b>Cars By City</b></li>
+       <li>Cars in Lahore </li>
+       <li>Cars in Karachi</li>
+       <li>Cars in Islamabad</li>
+      <li>Cars in Rawalpindi</li>
+      <li>Cars in Peshawar</li>
+      <li>Cars in Faisalabad</li>
+      <li>Cars in Multan</li>
+      <li>Cars in Gujranwala</li>
+      <li>Cars in Sialkot</li>
+        </ol>
+        <ol class="last2"></li>
+         <li><b>RedWheels.com</b></li>
+        <li>RedWheels.com</li>
+        <li>About RedWheels.com</li>
+        <li>Our Products</li>
+        <li>Advertise With Us</li>
+        <li>How To Pay</li>
+        <li>FAQs</li>
+        <li>Refunds & Returns</li>
+        <li>Careers</li>
+        <li>Contact UsRedWheels.com</li>
+         
+        </ol>
+        <ol class="last3">
+        <li><b>Sell On RedWheels</b></li>
+        <li>Sell Your Car</li>
+        <li>Sell Your Bike</li>
+        <li>Sell Accessory</li>
+</ol>
+        
+        <p id="p">Copyright © 2003 - 2022 RedWheels (Pvt) Ltd. - All Rights Reserved.<br>
+          Terms of Service |  Privacy Policy<br>
+          Reproduction of material from any PakWheels.com pages without permission is strictly prohibited.</p>
+      </div>
+      
+</body>
+</html>
